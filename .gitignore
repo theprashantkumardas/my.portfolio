@@ -62,7 +62,7 @@ Thumbs.db
 ../.git/
 
 # Exclude frontend package.json
-client/package.json
+# client/package.json
 client/package-lock.json
 
 # Exclude backend package.json
