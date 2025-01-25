@@ -1,0 +1,18 @@
+.footer {
+    background-color: #0D1117;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border-top: 1px solid #262A30; */
+  }
+  
+  .socialLinks {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .iconLink {
+    text-decoration: none;
+    color: #3794FF;
+  }

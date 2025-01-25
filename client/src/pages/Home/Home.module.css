@@ -1,0 +1,40 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 20px;
+  }
+  
+  .hero {
+    text-align: center;
+  }
+  
+  .developerName {
+    font-size: 3.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .description {
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+    color: #9FB1D1;
+    max-width: 800px;
+    line-height: 1.5;
+  }
+  
+  .buttons {
+    margin-top: 24px;
+      display: flex;
+      gap: 20px;
+      justify-content: center;
+  }
+  .span1{
+    color: #3794FF;
+    font-size: 4rem;
+    
+  }
+  .span2{
+    font-size: 1.5rem;
+    color: #3794FF;
+    padding: 0 10px;
+  }

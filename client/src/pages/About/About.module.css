@@ -1,0 +1,31 @@
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 20px;
+  }
+  
+  .title {
+    font-size: 2rem;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  
+  .description {
+    font-size: 1.1rem;
+    color: #9FB1D1;
+    max-width: 800px;
+    line-height: 1.5;
+    text-align: start;
+  }
+
+  .span1{
+    color: #3794FF;
+    font-size: 2rem;
+    padding: 0 10px;
+  }
+  .span2{
+    font-size: 1.5rem;
+    color: #3794FF;
+    padding: 0 10px;
+  }

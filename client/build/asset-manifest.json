@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.15ac71d3.css",
+    "main.js": "/static/js/main.5c4980be.js",
+    "static/js/488.21a3b654.chunk.js": "/static/js/488.21a3b654.chunk.js",
+    "static/media/alien1.png": "/static/media/alien1.3a5d58337300023c58bb.png",
+    "static/media/alien4.png": "/static/media/alien4.18a6e78e4ff9ea37b25a.png",
+    "static/media/alien5.png": "/static/media/alien5.82bde4b66ad132d0875a.png",
+    "static/media/alien3.png": "/static/media/alien3.0b1d210d3814eb8dfedf.png",
+    "static/media/alien6.png": "/static/media/alien6.ae39915ab4aa7708d21b.png",
+    "static/media/sastaolx1.png": "/static/media/sastaolx1.2d8444c3627d07758a48.png",
+    "static/media/sastaolx2.png": "/static/media/sastaolx2.75ef7b2f1567e631a5a4.png",
+    "static/media/quick1.png": "/static/media/quick1.8046041bc0877d166c0d.png",
+    "static/media/quick2.png": "/static/media/quick2.24791a65a5151bad3673.png",
+    "static/media/alien2.png": "/static/media/alien2.9eebe6ec9b0259a4c394.png",
+    "static/media/sastaolx3.png": "/static/media/sastaolx3.b0310060fa076c2b7ad6.png",
+    "static/media/quick3.png": "/static/media/quick3.84362b86a11e07619407.png",
+    "index.html": "/index.html",
+    "main.15ac71d3.css.map": "/static/css/main.15ac71d3.css.map",
+    "main.5c4980be.js.map": "/static/js/main.5c4980be.js.map",
+    "488.21a3b654.chunk.js.map": "/static/js/488.21a3b654.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.15ac71d3.css",
+    "static/js/main.5c4980be.js"
+  ]
+}

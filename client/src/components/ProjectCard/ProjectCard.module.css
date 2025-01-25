@@ -1,0 +1,57 @@
+.card {
+    background-color: #161A20;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .imageWrapper {
+      width: 100%;
+      height: 200px; /* Adjust as needed */
+      overflow: hidden;
+      border-radius: 8px;
+    }
+    
+    .image {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  
+  .title {
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+    
+  }
+  
+  .description {
+    font-size: 1rem;
+    color: #9FB1D1;
+  }
+  
+  .techStack {
+    display: flex;
+    gap: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .techItem {
+    background-color: #262A30;
+    padding: 3px 6px;
+    border-radius: 4px;
+    font-size: 0.8rem;
+  }
+  
+  .links {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .links svg {
+    color: #3794FF;
+      width: 24px;
+      height: 24px;
+  }
