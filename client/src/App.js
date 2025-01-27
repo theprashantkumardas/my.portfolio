@@ -9,9 +9,6 @@ import Footer from './layouts/Footer/Footer';
 import ProjectDetails from './pages/ProjectDetails/ProjectDetails';
 
 
-import { projectsData } from './ProjectData/projectdata';
-
-
 function App() {
   
 
@@ -23,7 +20,7 @@ function App() {
         <Route path="/projects" element={<Projects />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
-        <Route path="/projects/:projectId" element={<ProjectDetails projects={projectsData} />} />
+        <Route path="/projects/:projectId" element={<ProjectDetails  />} />
       </Routes>
       <Footer />
     </Router>

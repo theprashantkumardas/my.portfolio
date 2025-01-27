@@ -19,6 +19,31 @@
     text-align: start;
   }
 
+  
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  
+  .imgBorder{
+    border: 4px solid #3794FF; /* Added border properties */
+      padding: 10px;        /* Optional padding for space between image and border */
+      display: inline-block; /* So the border fits the image and padding */
+      border-radius: 8px;   /* Optional border-radius for rounded corners */
+      max-width: 100%; /* Make image responsive */
+  }
+
+  .image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+    
+  }
+
   .span1{
     color: #3794FF;
     font-size: 2rem;

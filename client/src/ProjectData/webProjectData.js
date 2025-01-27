@@ -14,14 +14,12 @@ import projectImg35 from '../assets/Images/alien5.png'
 import projectImg36 from '../assets/Images/alien6.png'
 
 
-export const projectsData = [
+export const webProjectsData = [
     {
         id: 1,
         imageUrl: projectImg11,
         title: 'OLX-Type Marketplace with Chat, Payment, and More',
         description:
-            'I developed a fully functional OLX-style marketplace website, enhanced with modern features.',
-        detailDescription:
             'I developed a fully functional OLX-style marketplace website, enhanced with modern features.',
         detailDescription:
             `I developed a fully functional OLX-style marketplace website, enhanced with modern features to address real-world buying and selling challenges. Users can buy and sell second-hand or branded products while enjoying the following features:
@@ -42,7 +40,8 @@ export const projectsData = [
             projectImg11,
             projectImg12,
             projectImg13,
-        ]
+        ],
+        category: 'web'
     },
     {
         id: 2,
@@ -65,16 +64,17 @@ export const projectsData = [
             projectImg21,
             projectImg22,
             projectImg23,
-        ]
+        ],
+        category: 'web'
     },
-    {
+     {
         id: 3,
         imageUrl: projectImg31,
         title: 'Alien Invasion',
         description:
             'Created a sci-fi theme website where the content is about destination for all things related to science, technology, space, and extraterriesterial life.',
         detailDescription:
-            `Welcome to Alien Invasion Science, your ultimate destination for all things related to science, technology, space, and extraterrestrial life.
+           `Welcome to Alien Invasion Science, your ultimate destination for all things related to science, technology, space, and extraterrestrial life.
             <ul>
                 <li><strong>INFO & ARTICLES:</strong> Information and articles on the latest scientific discoveries and theories related to alien technology, space, science and technology and the universe.</li>
                 <li><strong>EXPLORATION:</strong> In-depth guides and tutorials on various subjects, such as the search for extraterrestrial intelligence, space travel and propulsion, and the impact of science and technology on society.</li>
@@ -90,19 +90,20 @@ export const projectsData = [
             projectImg31,
             projectImg32,
             projectImg33,
-            projectImg34,
+             projectImg34,
             projectImg35,
-            projectImg36,
-        ]
+           projectImg36,
+        ],
+         category: 'web'
     },
     // {
     //     id: 4,
     //     imageUrl: 'https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     //     title: 'Project Title 4',
     //     description:
-    //         'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla interdum urna quis magna lobortis.',
+    //         'Project description for android.',
     //     detailDescription:
-    //         'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla interdum urna quis magna lobortis, eget finibus urna vestibulum. Sed nec ex non justo dictum venenatis. Fusce nec purus nec mauris posuere malesuada. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla interdum urna quis magna lobortis, eget finibus urna vestibulum. Sed nec ex non justo dictum venenatis. Fusce nec purus nec mauris posuere malesuada. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla interdum urna quis magna lobortis, eget finibus urna vestibulum. Sed nec ex non justo dictum venenatis. Fusce nec purus nec mauris posuere malesuada.',
+    //        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla interdum urna quis magna lobortis, eget finibus urna vestibulum. Sed nec ex non justo dictum venenatis. Fusce nec purus nec mauris posuere malesuada. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla interdum urna quis magna lobortis, eget finibus urna vestibulum. Sed nec ex non justo dictum venenatis. Fusce nec purus nec mauris posuere malesuada. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla interdum urna quis magna lobortis, eget finibus urna vestibulum. Sed nec ex non justo dictum venenatis. Fusce nec purus nec mauris posuere malesuada.',
     //     techStack: ['React', 'Node.js', 'Express'],
     //     githubLink: '#',
     //     liveLink: '#',
@@ -110,6 +111,7 @@ export const projectsData = [
     //         'https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     //         'https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     //         'https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-    //     ]
-    // }
+    //     ],
+    //       category: 'web'
+    // },
 ];

@@ -20,7 +20,7 @@ const Navbar = () => {
         <div className={styles.container}>
             <div className={styles.logo}>
               <Link to="/" className={styles.logoLink} onClick={closeMenu}>
-                <span className={styles.span} >...prashant</span>
+                <span className={styles.span} >...𝓅𝓇𝒶𝓈𝒽𝒶𝓃𝓉</span>
               </Link>
             </div>
           

@@ -1,12 +1,15 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
 import styles from './ProjectDetails.module.css';
-import { projectsData } from '../../ProjectData/projectdata';
-
+import { androidProjectsData } from '../../ProjectData/androidProjectData';
+import { webProjectsData } from '../../ProjectData/webProjectData';
 
 const ProjectDetails = () => {
     const { projectId } = useParams();
-    const project = projectsData.find(proj => proj.id === parseInt(projectId));
+     const allProjects = [...androidProjectsData, ...webProjectsData]
+
+    const project = allProjects.find(proj => proj.id === parseInt(projectId));
+
 
     if (!project) {
         return <div className={styles.notFound}>Project not found.</div>;
