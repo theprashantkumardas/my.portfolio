@@ -13,10 +13,66 @@ import projectImg34 from '../assets/Images/alien4.png'
 import projectImg35 from '../assets/Images/alien5.png'
 import projectImg36 from '../assets/Images/alien6.png'
 
+import projectImg41 from '../assets/Images/donatefood1.png'
+import projectImg42 from '../assets/Images/donatefood2.png'
+import projectImg43 from '../assets/Images/donatefood3.png'
+import projectImg44 from '../assets/Images/donatefood4.png'
+import projectImg45 from '../assets/Images/donatefood5.png'
+import projectImg46 from '../assets/Images/donatefood6.png'
+import projectImg47 from '../assets/Images/donatefood7.png'
+import projectImg48 from '../assets/Images/donatefood8.png'
+import projectImg49 from '../assets/Images/donatefood9.png'
+
 
 export const webProjectsData = [
     {
         id: 1,
+        imageUrl: projectImg41,
+        title: '(ongoing) Donate Food - Connecting Communities, Reducing Waste',
+        description:
+            'Connecting Communities, Reducing Food Waste, Nourishing Lives.',
+            detailDescription: `
+            Welcome to [Your Platform Name], where we're passionate about building a more sustainable and equitable food system, right here in our community.  We connect businesses with surplus food to local charities who serve those in need, reducing waste and fighting hunger at the same time.
+        
+            <ul>
+              <li>
+                <strong>Our Mission:</strong> Connecting Communities, Reducing Food Waste, Nourishing Lives. This mission guides everything we do. We strive to create a positive impact on both people and the planet.
+              </li>
+              <li>
+                <strong>The Alarming Truth About Food Waste:</strong> Globally, an estimated one-third of all food produced is lost or wasted. In [Your City/Region], this translates to approximately [Number] tons of food ending up in landfills each year. This wasted food contributes significantly to greenhouse gas emissions, consumes precious resources like water and land, and exacerbates the issue of food insecurity.
+              </li>
+              <li>
+                <strong>Our Impact (So Far):</strong>
+                 We're proud to report that we've facilitated the donation of [Number] meals to local charities, diverting [Number] tons of food waste from landfills. We've also partnered with [Number] businesses who have committed to reducing their food waste. See the positive change you can bring to your community when you join us!
+              </li>
+            </ul>
+            <p>
+              <strong>Our Inspiration:</strong> We are inspired by the simple belief that good food shouldn't go to waste while people in our community face hunger. We're building a platform to make it easier than ever for businesses and charities to connect and create a positive impact.
+            </p>
+            <p>
+              <strong>Explore the possibilities with us:</strong> Join our growing network of local heroes! Every action you take with us helps ensure that your community flourishes.
+            </p>
+        
+            What makes [Your Platform Name] special is our dedication to simplicity, transparency, and community. We focus on making the donation process effortless and impactful for everyone involved. Our responsive design ensures a seamless experience on any device, so you can help us reduce food waste no matter where you are.
+          `,
+        techStack: ['Ongoing Project','React', 'integrating with backend ...' ],
+        githubLink: 'https://github.com/theprashantkumardas/Donate-Food',
+        liveLink: '#',
+        images: [
+            projectImg41,
+            projectImg42,
+            projectImg43,
+            projectImg44,
+            projectImg45,
+            projectImg46,
+            projectImg47,
+            projectImg48,
+            projectImg49,
+        ],
+        category: 'web'
+    },
+    {
+        id: 2,
         imageUrl: projectImg11,
         title: 'OLX-Type Marketplace with Chat, Payment, and More',
         description:
@@ -44,7 +100,7 @@ export const webProjectsData = [
         category: 'web'
     },
     {
-        id: 2,
+        id: 3,
         imageUrl: projectImg21,
         title: 'Responsive Professional Website',
         description:
@@ -67,14 +123,14 @@ export const webProjectsData = [
         ],
         category: 'web'
     },
-     {
-        id: 3,
+    {
+        id: 4,
         imageUrl: projectImg31,
         title: 'Alien Invasion',
         description:
             'Created a sci-fi theme website where the content is about destination for all things related to science, technology, space, and extraterriesterial life.',
         detailDescription:
-           `Welcome to Alien Invasion Science, your ultimate destination for all things related to science, technology, space, and extraterrestrial life.
+            `Welcome to Alien Invasion Science, your ultimate destination for all things related to science, technology, space, and extraterrestrial life.
             <ul>
                 <li><strong>INFO & ARTICLES:</strong> Information and articles on the latest scientific discoveries and theories related to alien technology, space, science and technology and the universe.</li>
                 <li><strong>EXPLORATION:</strong> In-depth guides and tutorials on various subjects, such as the search for extraterrestrial intelligence, space travel and propulsion, and the impact of science and technology on society.</li>
@@ -90,28 +146,11 @@ export const webProjectsData = [
             projectImg31,
             projectImg32,
             projectImg33,
-             projectImg34,
+            projectImg34,
             projectImg35,
-           projectImg36,
+            projectImg36,
         ],
-         category: 'web'
+        category: 'web'
     },
-    // {
-    //     id: 4,
-    //     imageUrl: 'https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-    //     title: 'Project Title 4',
-    //     description:
-    //         'Project description for android.',
-    //     detailDescription:
-    //        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla interdum urna quis magna lobortis, eget finibus urna vestibulum. Sed nec ex non justo dictum venenatis. Fusce nec purus nec mauris posuere malesuada. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla interdum urna quis magna lobortis, eget finibus urna vestibulum. Sed nec ex non justo dictum venenatis. Fusce nec purus nec mauris posuere malesuada. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla interdum urna quis magna lobortis, eget finibus urna vestibulum. Sed nec ex non justo dictum venenatis. Fusce nec purus nec mauris posuere malesuada.',
-    //     techStack: ['React', 'Node.js', 'Express'],
-    //     githubLink: '#',
-    //     liveLink: '#',
-    //     images: [
-    //         'https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-    //         'https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-    //         'https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-    //     ],
-    //       category: 'web'
-    // },
+    
 ];

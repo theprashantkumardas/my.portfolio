@@ -4,7 +4,7 @@ import umoneyImg from '../assets/Images/umoneyandroid.png'
 
 export const androidProjectsData = [
     {
-        id: 4,
+        id: 5,
         imageUrl: unoteImg,
         title: 'U Notes app ',
         description:
@@ -31,7 +31,7 @@ export const androidProjectsData = [
         category: 'android'
     },
     {
-        id: 5,
+        id: 6,
         imageUrl: umoneyImg,
         title: 'U Money app',
         description:
