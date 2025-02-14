@@ -7,6 +7,7 @@ import About from './pages/About/About';
 import Contact from './pages/Contact/Contact';
 import Footer from './layouts/Footer/Footer';
 import ProjectDetails from './pages/ProjectDetails/ProjectDetails';
+import Messages from './components/Messages/Messages';
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/projects/:projectId" element={<ProjectDetails  />} />
+        <Route path="/messages" element={<Messages />} />
       </Routes>
       <Footer />
     </Router>

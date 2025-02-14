@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.6978fced.css",
-    "main.js": "/static/js/main.8a5f7f5f.js",
+    "main.css": "/static/css/main.fcb5f32c.css",
+    "main.js": "/static/js/main.46cc92cc.js",
     "static/js/488.21a3b654.chunk.js": "/static/js/488.21a3b654.chunk.js",
     "static/media/donatefood1.png": "/static/media/donatefood1.b591d7bda730ef291ba8.png",
     "static/media/alien1.png": "/static/media/alien1.3a5d58337300023c58bb.png",
@@ -28,12 +28,12 @@
     "static/media/donatefood4.png": "/static/media/donatefood4.3fcae59843320b98aa47.png",
     "static/media/quick3.png": "/static/media/quick3.84362b86a11e07619407.png",
     "index.html": "/index.html",
-    "main.6978fced.css.map": "/static/css/main.6978fced.css.map",
-    "main.8a5f7f5f.js.map": "/static/js/main.8a5f7f5f.js.map",
+    "main.fcb5f32c.css.map": "/static/css/main.fcb5f32c.css.map",
+    "main.46cc92cc.js.map": "/static/js/main.46cc92cc.js.map",
     "488.21a3b654.chunk.js.map": "/static/js/488.21a3b654.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6978fced.css",
-    "static/js/main.8a5f7f5f.js"
+    "static/css/main.fcb5f32c.css",
+    "static/js/main.46cc92cc.js"
   ]
 }
