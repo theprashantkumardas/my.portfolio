@@ -13,7 +13,7 @@ const ContactForm = () => {
       setSubmissionStatus(null); // Reset status
 
       try {
-          const response = await axios.post('http://localhost:8000/contacts/add', { // Adjust URL if needed
+          const response = await axios.post('https://my-portfolio-az98.onrender.com/contacts/add', { // Adjust URL if needed
               name,
               email,
               message
