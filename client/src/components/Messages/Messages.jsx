@@ -10,7 +10,7 @@ const Messages = () => {
   useEffect(() => {
     const fetchMessages = async () => {
       try {
-        const response = await axios.get('http://localhost:8000/contacts'); // Adjust URL if needed
+        const response = await axios.get('https://my-portfolio-az98.onrender.com/contacts'); // Adjust URL if needed
         setMessages(response.data);
         setLoading(false);
       } catch (err) {
