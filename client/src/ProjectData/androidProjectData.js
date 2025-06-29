@@ -1,10 +1,47 @@
 import unoteImg from '../assets/Images/unotesandroid.png'
 import umoneyImg from '../assets/Images/umoneyandroid.png'
+import regretifyImg from '../assets/Images/regretifyandroid.png'
+import regretifyImg1 from '../assets/Images/regretifyandroid1.png'
+import regretifyImg2 from '../assets/Images/regretifyandroid2.png'
+import regretifyImg3 from '../assets/Images/regretifyandroid3.png'
 
 
 export const androidProjectsData = [
     {
         id: 5,
+        imageUrl: regretifyImg,
+        title: 'Regretify ',
+        description:
+            'Share Your Regrets Anonymously  Learn from Others. Grow Together.',
+        detailDescription:
+            `<p>This is the android app where you can post your own regrets even anonymously and connect to anyone to make your heart feel light</p>
+           <ul>
+             <li><strong>CRUD Operation :</strong> Easily create, read, update, and delete regrets post .</li>
+             <li><strong>Personal Chat Rooms:</strong> Share your regrets with someone who understand you without any judgements:
+             <li><strong>Communities and groups:</strong> Share your regrets into groups to feel that you are not alone in your mistake without any judgements:
+               <ul>
+                <li>Reactions</li>
+                <li>Comments</li>
+                <li>Bookmarks</li>
+                <li>Chatting</li>
+                <li>Add friends.</li>
+               </ul>
+             </li>
+             <li><strong>User-Friendly Interface:</strong> A clean, minimalistic, and intuitive design using Jetpack Compose </li>
+          </ul>`
+        , techStack: ['Kotlin', 'Jetpack Compose', 'Node'],
+        // githubLink: 'https://github.com/theprashantkumardas/UNotes',
+        liveLink: 'https://regretify.netlify.app/',
+        images: [
+            regretifyImg1,
+            regretifyImg2,
+            regretifyImg3,
+
+        ],
+        category: 'android'
+    },
+    {
+        id: 6,
         imageUrl: unoteImg,
         title: 'U Notes app ',
         description:
@@ -31,7 +68,7 @@ export const androidProjectsData = [
         category: 'android'
     },
     {
-        id: 6,
+        id: 7,
         imageUrl: umoneyImg,
         title: 'U Money app',
         description:
